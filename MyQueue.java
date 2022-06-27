@@ -31,4 +31,7 @@ class MyQueue {
         return out.peek();
     }
 
+    public boolean empty() {
+        return in.isEmpty() && out.isEmpty();
+    }
 }
